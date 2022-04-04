@@ -44,8 +44,20 @@
 
   .hero {
     background-image: url('../images/hero.jpg');
-    height: 600px;
-    background-size: cover;
+    opacity: 98%;
+    height: 400px;
+    background-size:cover;
     background-position: center;
     position: relative;
+    text-align: right;
   }
+
+  .section {
+      box-sizing: content-box;
+      max-height: fit-content;
+      width:200px;
+    }
+
+    section h2 div {
+        max-width: fit-content;
+    }
