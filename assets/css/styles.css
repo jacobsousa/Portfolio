@@ -36,7 +36,6 @@ header nav ul li a {
   font-size: 22px;
 }
 .hero {
-  background-image: url('../images/hero.jpg');
   opacity: 98%;
   height: 800px;
   background-size:cover;
@@ -45,6 +44,11 @@ header nav ul li a {
   text-align: center;
 
 
+}
+.hero img {
+  height: 800px;
+  width: fit-content;
+  display: flex;
 }
 
 body {
