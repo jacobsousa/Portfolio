@@ -36,7 +36,7 @@ header nav ul li a {
   font-size: 22px;
 }
 .hero {
-  background-image: url('../images/hero.jpg');
+  background-image: url('/assets/images/hero.jpg');
   opacity: 98%;
   height: 800px;
   background-size:cover;
@@ -53,6 +53,10 @@ body {
   background-color: #34353b;
 }  
 
+p{
+  text-align: center;
+}
+
 img {
       box-sizing: content-box;
       max-height: fit-content;
@@ -68,6 +72,7 @@ img {
       flex: 0 0 400px;
     }
     section h2 div {
+      text-align: center;
         max-width: fit-content;
     }
 
