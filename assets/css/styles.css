@@ -51,6 +51,12 @@ height: 100vh;
 width: 100vw;
 }
 
+.subtitle{
+  padding-top: 90px;
+}
+
+
+
 body {
 color:aliceblue;
 font-family: Helvetica, Arial, sans-serif;
@@ -104,6 +110,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibre, 'Trebuchet MS', sans-serif;
 }
 .contact{
 padding-top: 50px;
+justify-content: space-around;
 padding-bottom: 50px;
 text-align: center;
 }
